@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  header img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: flex;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 100%; 
+    box-sizing: border-box;
+    position: relative;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .product .whatsapp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-align: center; 
+    text-decoration: none;
+  }
+  
+
+.whatsapp-btn:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.whatsapp-btn:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+  
+  footer {
+    background-color: #090a38;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+  }
+  
+  .contact-btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+ 
+  .whatsapp-btn {
+    background-color: #25D366;
+  }
+  
+  .instagram-btn {
+    background-color: #833ab4;
+  }
+  
